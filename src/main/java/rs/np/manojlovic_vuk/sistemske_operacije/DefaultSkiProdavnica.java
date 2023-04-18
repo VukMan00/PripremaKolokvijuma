@@ -8,10 +8,20 @@ import com.google.gson.Gson;
 
 import rs.np.manojlovic_vuk.domenske_klase.Skije;
 
-
-
+/**
+ * Predstavlja implementaciju interfejsa SkiProdavnica. 
+ * 
+ * Sadrzi listu svih skija koje se nalaze u prodavnici implementirana 
+ * preko ArrayList-e
+ * 
+ * @author Vuk Manojlovic
+ *
+ */
 public class DefaultSkiProdavnica implements SkiProdavnica {
 	
+	/**
+	 * Lista sa svim skijama iz prodavnice
+	 */
 	private List<Skije> sveSkije = new ArrayList<Skije>();
 
 	@Override
